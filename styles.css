@@ -1,0 +1,44 @@
+.card{
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-top: 100px solid black;
+    transition: transform 0.5s ease-in-out;
+    transform-origin: top;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.rectangle{
+    width: 0;
+    height: 0;
+    border-left: 150px solid pink;
+    border-right: 150px solid rgb(255, 236, 242);
+    border-top: 100px solid rgb(216, 255, 44);
+    border-bottom: 100px solid seashell;
+    border-radius: 5px;
+   
+    
+    
+}
+
+.card:hover{
+    transform: rotateX(180deg);
+
+}
+
+#parent{
+    position: relative;
+    
+}
+body{
+    display: flex;              /* Enable flexbox layout */   
+    justify-content: center;  
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
